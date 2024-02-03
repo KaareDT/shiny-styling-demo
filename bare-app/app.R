@@ -20,11 +20,9 @@ ui <- fluidPage(
       "Recommended Trial",
       textOutput("recommended_eval"),
 
-      "Users",
-      textOutput("number_of_users"),
 
-      "Avg Spend",
-      textOutput("average_spend"),
+
+
 
       "Conversion rates by subgroup",
       tableOutput("table")
